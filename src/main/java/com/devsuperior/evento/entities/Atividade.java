@@ -16,14 +16,14 @@ public class Atividade {
     private Integer id;
     private String nome;
     private String descricao;
-    private Double Preco;
+    private Double preco;
 
     @ManyToOne
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
     @OneToMany(mappedBy = "atividade")
-    private List<Categoria> categorias = new ArrayList<>();
+    private List<Bloco> blocos = new ArrayList<>();
 
     @ManyToMany
     private Set<Participante> participantes = new HashSet<>();
@@ -36,7 +36,7 @@ public class Atividade {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
-        Preco = preco;
+        preco = preco;
     }
 
     public Integer getId() {
@@ -64,10 +64,10 @@ public class Atividade {
     }
 
     public Double getPreco() {
-        return Preco;
+        return preco;
     }
 
     public void setPreco(Double preco) {
-        Preco = preco;
+        preco = preco;
     }
 }
