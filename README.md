@@ -1,14 +1,12 @@
 # Sistema Evento
-[![NPM](https://github.com/henriquecesarjr/Sistema_Evento/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquecesarjr/Sistema_Evento/blob/main/LICENSE)
 
 # Sobre o projeto
-
-O Sistema Evento é uma aplicação Java construída durante o segundo módulo do curso de Java Spring da [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
 O sistema tem como finalidade gerenciar as informações dos participantes das atividades de um evento acadêmico.
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/henriquecesarjr/DSCommerce/blob/main/assets/modelo%20conceitual.png)
+![Modelo Conceitual](https://github.com/henriquecesarjr/Sistema_Evento/blob/main/assets/Captura%20de%20tela%202023-10-11%20102106.png)
 
 # Tecnologias utilizadas
 - Java
