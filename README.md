@@ -1,11 +1,11 @@
 # Sistema Evento
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquecesarjr/DSCommerce/blob/main/LICENSE)
+[![NPM](https://github.com/henriquecesarjr/Sistema_Evento/blob/main/LICENSE)
 
 # Sobre o projeto
 
-O DSCommerce é uma aplicação Java construída durante o segundo módulo do curso de Java Spring da [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+O Sistema Evento é uma aplicação Java construída durante o segundo módulo do curso de Java Spring da [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação consiste em manter um cadastro de usuário, produtos e suas categorias onde os usuários podem selecionar os produtos e adicioná-los ao carrinho.
+O sistema tem como finalidade gerenciar as informações dos participantes das atividades de um evento acadêmico.
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/henriquecesarjr/DSCommerce/blob/main/assets/modelo%20conceitual.png)
