@@ -25,7 +25,7 @@ public class Atividade {
     @OneToMany(mappedBy = "atividade")
     private List<Bloco> blocos = new ArrayList<>();
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "atividades")
     private Set<Participante> participantes = new HashSet<>();
 
 
