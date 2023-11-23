@@ -11,7 +11,6 @@ O sistema tem como finalidade gerenciar as informações dos participantes das a
 # Tecnologias utilizadas
 - Java
 - Spring Boot
-- Spring WEB
 - JPA / Hibernate
 - H2 Database
 - Maven
